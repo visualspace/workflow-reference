@@ -67,3 +67,15 @@ but a port using :ref:`Compass` is available as `Sass Bootstrap`_.
 .. seealso::
     * `Bootstrap's website <http://getbootstrap.com/>`_
     * `Sass Bootstrap <http://alademann.github.io/sass-bootstrap/>`_
+
+Cross-browser testing
+---------------------
+It is essential to test the design and functioning of a site across a range of
+different browsers and devices. To make this simpler, several services exist
+to create screenshots of webapps in different browser environments and/or to
+have live access to apps on different browsers and devices.
+
+
+.. seealso::
+    * `BrowserStack <http://www.browserstack.com/>`_
+    * `SauceLabs <https://saucelabs.com/>`_
