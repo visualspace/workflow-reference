@@ -1,4 +1,4 @@
-.. highlight:: bash
+.. highlight:: console
 
 .. _tools:
 
@@ -6,6 +6,8 @@ Tools
 =====
 
 Tools used for :ref:`html`, :ref:`css` and :ref:`js` in web development.
+
+.. _yeoman:
 
 Yeoman
 ------
@@ -16,8 +18,10 @@ as follows::
     yo webapp
 
 .. seealso::
-    * `Yeoman <http://yeoman.io/>`_
+    * `Yeoman website <http://yeoman.io/>`_
     * `Yo <https://github.com/yeoman/yo>`_
+
+.. _grunt:
 
 Grunt
 -----

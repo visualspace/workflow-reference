@@ -9,6 +9,67 @@
 JavaScript
 ==========
 
+.. index::
+    Asynchronous Module Definition
+    see: AMD; Asynchronous Module Definition
+
+.. _amd:
+
+Asynchronous Module Definition
+------------------------------
+Asynchronous module definition (AMD) is an API for modular JavaScript
+development such that defined modules can be loaded asynchronously while
+automatically taking care of loading dependencies.
+
+It is useful in improving the performance of websites by bypassing synchronous
+loading of modules along with the rest of the site content. In addition to
+loading multiple JavaScript files at runtime, AMD can be used during development
+to keep JavaScript files encapsulated in many different files.
+
+Defining a module definition in AMD looks as follows::
+
+    define(function (require) {
+        var dependency1 = require('dependency1'),
+            dependency2 = require('dependency2');
+
+        return function () {};
+    });
+
+For AMD dependencies, the extension ``.js`` is automatically added to modules,
+so ``dependency1`` will be loaded from ``dependency1.js``.
+
+.. note::
+    A common alternate API is to define requirements when calling the ``define()``
+    function. While sometimes shorter, this quickly becomes dreadful to read
+    and is therefore considered an anti-pattern.
+
+    For example (note the lack of readability)::
+
+        define([ "require", "jquery", "blade/object", "blade/fn", "rdapi",
+                 "oauth", "blade/jig", "blade/url", "dispatch", "accounts",
+                 "storage", "services", "widgets/AccountPanel", "widgets/TabButton",
+                 "widgets/AddAccount", "less", "osTheme", "jquery-ui-1.8.7.min",
+                 "jquery.textOverflow"],
+        function (require,   $,        object,         fn,         rdapi,
+                  oauth,   jig,         url,         dispatch,   accounts,
+                  storage,   services,   AccountPanel,           TabButton,
+                  AddAccount,           less,   osTheme) {
+
+        });
+
+.. seealso:: `Asynchronous module definition on Wikipedia <https://en.wikipedia.org/wiki/Asynchronous_module_definition>`_
+
+Require.js
+^^^^^^^^^^
+RequireJS is perhaps the most used AMD loader. It is optimized for in-browser
+use but can also be used with :ref:`Node` to build and optimize JS before
+distributing.
+
+.. seealso::
+    * `RequireJS API <http://requirejs.org/docs/api.html>`_
+    * `Using RequireJS with jQuery <http://requirejs.org/docs/jquery.html>`_
+    * `RequireJS Optimizer <http://requirejs.org/docs/optimization.html>`_
+
 .. _template-libraries:
 
 Template libraries
@@ -112,3 +173,48 @@ following snippet for jQuery fallback on IE::
 
 .. seealso::
     * `Zepto.js <http://zeptojs.com/>`_
+
+
+.. index::
+    Node.js
+    see: Node; Node.js
+
+.. _node:
+
+Node.js
+-------
+Node.js is a platform for easily building fast, scalable network applications
+using JavaScript.
+
+.. seealso::
+    * `A guided introduction to Node.js <https://www.youtube.com/watch?v=jo_B4LTHi3I>`_ (video)
+    * `Node.js API docs <http://nodejs.org/api/>`_
+
+NPM
+^^^
+Node Package Manager. Installs, publishes and manages node programs.
+
+By default, NPM installs packages and dependencies in the current directory,
+yielding the equivalent of Python's VirtualEnv_. This is a particular
+convenience when installing project dependencies, for example:
+
+.. code-block:: console
+
+    git clone git@github.com:alexyoung/nodepad.git nodepad
+    cd nodepad
+    npm install
+
+    node app.js
+
+This installs Nodepad_, a Node notepad part of a tutorial series on DailyJS_.
+
+Alternately, to install packages globally use the ``-g`` option. For example::
+
+    npm install -g yeomen
+
+This makes sure the ``yo`` command of :ref:`yeoman`, :ref:`grunt` and other
+commands are available regardless of the :ref:`cwd`.
+
+.. _VirtualEnv: https://pypi.python.org/pypi/virtualenv
+.. _DailyJS: http://dailyjs.com
+.. _Nodepad: http://dailyjs.com/2010/11/01/node-tutorial/
