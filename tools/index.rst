@@ -7,30 +7,29 @@ Tools
 
 Tools used for :ref:`html`, :ref:`css` and :ref:`js` in web development.
 
-.. _yeoman:
-
 Yeoman
 ------
-Yeoman_ bundles :ref:`grunt` and :ref:`bower` with the scaffolding
-tool Yo_ used to setup a new web application as follows::
+Yeoman bundles Grunt_ and Bower_ with the scaffolding tool
+`Yo <https://github.com/yeoman/yo>`_ used to setup a new web application
+as follows::
 
     yo webapp
 
-.. _grunt:
+.. seealso:: http://yeoman.io/
 
 Grunt
 -----
-Grunt_ is a build tool for compiling static HTML, CSS, JS and the likes from
+Grunt is a build tool for compiling static HTML, CSS, JS and the likes from
 source files such as SCSS. It can be used to automatically recompile, show
 and/or reload files in the browser by running::
 
     grunt watch
 
-.. _bower:
+.. seealso:: http://gruntjs.com/
 
 Bower
 -----
-Bower_ is used like a package manager for client-side JS, CSS and other
+Bower is used like a package manager for client-side JS, CSS and other
 packages. It automatically installs, updates and manages libraries such
 as :ref:`bootstrap`. For example, installing :ref:`backbone` is easy::
 
@@ -38,12 +37,15 @@ as :ref:`bootstrap`. For example, installing :ref:`backbone` is easy::
 
 This will also include Backbone dependencies such as :ref:`underscore`.
 
+.. seealso:: http://bower.io/
+
+
 .. _bootstrap:
 
 Twitter's Bootstrap
 -------------------
+Bootstrap is a comprehensive front-end framework con
 
-.. Yeoman http://yeoman.io/
-.. Yo https://github.com/yeoman/yo
-.. Grunt http://gruntjs.com/
-.. Bower http://bower.io/
+.. seealso::
+    * `Bootstrap's website <http://getbootstrap.com/>`_
+    * `Sass Bootstrap <http://alademann.github.io/sass-bootstrap/>`_
