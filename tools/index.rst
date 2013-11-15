@@ -10,12 +10,14 @@ Tools used for :ref:`html`, :ref:`css` and :ref:`js` in web development.
 Yeoman
 ------
 Yeoman bundles Grunt_ and Bower_ with the scaffolding tool
-`Yo <https://github.com/yeoman/yo>`_ used to setup a new web application
+Yo_ used to setup a new web application
 as follows::
 
     yo webapp
 
-.. seealso:: http://yeoman.io/
+.. seealso::
+    * `Yeoman <http://yeoman.io/>`_
+    * `Yo <https://github.com/yeoman/yo>`_
 
 Grunt
 -----
@@ -44,7 +46,23 @@ This will also include Backbone dependencies such as :ref:`underscore`.
 
 Twitter's Bootstrap
 -------------------
-Bootstrap is a comprehensive front-end framework con
+Bootstrap is a comprehensive front-end framework consisting of:
+
+* A basic HTML templates_ and good examples_.
+* CSS_ with a grid systemm, sensible defaults for tags and styling
+  for UI elements.
+* `Reusable components`_ built to provide iconography, dropdowns, navigation,
+  alerts, popovers, and much more.
+* `jQuery plugins`_ for common interaction patterns.
+
+The original version of bootstrap is built using `Less CSS <http://lesscss.org/>`_
+but a port using :ref:`Compass` is available as `Sass Bootstrap`_.
+
+.. _templates: http://getbootstrap.com/getting-started/#template
+.. _examples: http://getbootstrap.com/getting-started/#examples
+.. _CSS: http://getbootstrap.com/css/
+.. _reusable components: http://getbootstrap.com/components/
+.. _jQuery plugins: http://getbootstrap.com/javascript/
 
 .. seealso::
     * `Bootstrap's website <http://getbootstrap.com/>`_
