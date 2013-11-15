@@ -7,29 +7,98 @@
 Style sheets
 ============
 
+.. seealso:: `Pears are common patterns of markup & style <http://pea.rs/>`_
+
 Modular architecture
 --------------------
-
-Every project needs some organization. Throwing every new style you create onto the end of a single file would make finding things more difficult and would be very confusing for anybody else working on the project.
+Every project needs some organization. Throwing every new style you
+create onto the end of a single file would make finding things more
+difficult and would be very confusing for anybody else working on the
+project.
 
 .. seealso::
     * `Scalable and Modular Architecture for CSS <http://smacss.com/book/>`_ (SMACSS)
     * `The Sass Way <http://thesassway.com/>`_
 
+File structure
+^^^^^^^^^^^^^^
+There are several ways of organizing CSS into files. Whereas
+traditionally it was easier to put all the styles for a single site
+either into a single file or to simply concatenate and compress a
+bunch of files, modern style languages like Sass_ and Less allow
+for much smarter and potentially faster ways to set things up.
+
+One way to setup a (S)CSS file structure is a combination of an
+'onion' and a modular pattern. The modular pattern assures maximal
+reusability of design patterns and common solutions to common problems
+(:ref:`DRY <dry>`). The onion model helps us steer clear of
+:ref:`precedence <style-precedence>` issues.
+
+While being a work in progress, the import order in a hypothetical
+``main.scss`` would look as follows::
+
+    // Modular mixins. These should generate no CSS of themselves but merely
+    // make mixins, variables and functions available and can be reused
+    // from site to site.
+    @import "buttons";
+    @import "shades";
+    ...
+
+    // Project-specific modules (again: not producing any actual CSS output)
+    @import "variables";
+    @import "colours";
+    @import "fonts";
+
+    // Common site-wide components
+    @import "reset"; // Browser reset
+    @import "tags"; // Tag selectors
+    @import "grid"; // Grid system
+    @import "classes"; // Common classes (object-based / SMACSS)
+    @import "ids"; // Common ID-referenced styles (keep these to a minimum)
+
+    // App-specific overrides of common ids and classes
+    // (Try to minimize tag selectors here)
+    @import "admin";
+    @import "shop";
+    @import "blog";
+    ...
+
+    // Media-specific overrides of tags, classes, apps and grid.
+    @import "media";
+
+.. warning::
+    This is a very early sketch of a mere candidate of a CSS structure which
+    is untested and not yet ready for actual implementation. Unless you're
+    brave.
+
+.. seealso::
+    * `How to structure a Sass project <http://thesassway.com/beginner/how-to-structure-a-sass-project>`_
+
+Naming conventions
+^^^^^^^^^^^^^^^^^^
+.. seealso:: `Modular CSS naming conventions <http://thesassway.com/advanced/modular-css-naming-conventions>`_
+
+.. _style-precedence:
+
 Style Precedence
 ----------------
-CSS Specificity is one of the most difficult concepts to grasp in Cascading Stylesheets. The different weight of selectors is usually the reason why your CSS-rules don’t apply to some elements, although you think they should have.
+CSS Specificity is one of the most difficult concepts to grasp in Cascading
+Stylesheets. The different weight of selectors is usually the reason why your
+CSS-rules don’t apply to some elements, although you think they should have.
 
-Every selector has its place in the specificity hierarchy. There are four distinct categories which define the specificity level of a given selector:
+Every selector has its place in the specificity hierarchy. There are four
+distinct categories which define the specificity level of a given selector:
 
 1. Inline styles (Presence of style in document).
-   An inline style lives within your XHTML document. It is attached directly to the element to be styled. E.g. ``<h1 style="color: #fff;">``
+   An inline style lives within your XHTML document. It is attached directly
+   to the element to be styled. E.g. ``<h1 style="color: #fff;">``
 
 2. IDs (# of ID selectors)
    ID is an identifier for your page elements, such as ``#div``.
 
 3. Classes, attributes and pseudo-classes (# of class selectors).
-   This group includes ``.classes``, ``[attributes]`` and pseudo-classes such as ``:hover``, ``:focus`` etc.
+   This group includes ``.classes``, ``[attributes]`` and pseudo-classes such
+   as ``:hover``, ``:focus`` etc.
 
 4. Elements and pseudo-elements (# of Element (type) selectors).
    Including for instance ``:before`` and ``:after``.
