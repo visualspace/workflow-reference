@@ -12,7 +12,8 @@ HTML5
 
 .. seealso::
     * `HTML5 Rocks <http://www.html5rocks.com/>`_
-    * `HTML5 Doctor <http://html5doctor.com/>`_.
+    * `HTML5 Doctor <http://html5doctor.com/>`_
+    * `W3Schools <http://www.w3schools.com/>`_
 
 
 .. index:: DOCTYPE
@@ -70,3 +71,9 @@ availability. This uses a so-called cache manifest which looks like this::
     * `Cache manifest in HTML5 on Wikipedia <https://en.wikipedia.org/wiki/Cache_manifest_in_HTML5>`_
     * `A Beginner's Guide to Using the Application Cache <http://www.html5rocks.com/en/tutorials/appcache/beginner/>`_ on `HTML5 Rocks`_
 
+Video
+^^^^^
+
+.. seealso::
+    * `HTML5 Video <http://www.w3schools.com/html/html5_video.asp>`_ at W3Schools_
+    * `Video.js <http://www.videojs.com/>`_
