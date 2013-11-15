@@ -9,6 +9,6 @@ You can find a rendered version of these best practises on
 `Read the Docs <http://workflow-reference.readthedocs.org/en/latest/>`_.
 
 For editing this documentation, please refer to the
-`Sphinx manual <http://sphinx-doc.org/contents.html>_` and the
+`Sphinx manual <http://sphinx-doc.org/contents.html>`_ and the
 `reStructuredText Primer <http://sphinx-doc.org/rest.html>`_
 in particular.
