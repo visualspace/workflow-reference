@@ -17,6 +17,7 @@ difficult and would be very confusing for anybody else working on the
 project.
 
 .. seealso::
+
     * `Scalable and Modular Architecture for CSS <http://smacss.com/book/>`_ (SMACSS)
     * `The Sass Way <http://thesassway.com/>`_
 
