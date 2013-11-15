@@ -1,5 +1,7 @@
 .. highlight:: console
 
+.. index:: ! UNIX
+
 .. _unix:
 
 Unix reference
@@ -15,9 +17,29 @@ A good reference for computer terms can be found at `Computer Hope`_.
 .. _Computer Hope: http://www.computerhope.com/jargon.htm
 
 .. index::
+    shell
+    command interpreter
+    command-line interface
+
+.. _shell:
+
+Shell
+^^^^^
+A shell or command-line interpreter is a simple textual interface
+allowing users to execute commands on a UNIX system. Typically, a
+shell displays the `Command Prompt`_ and allows users to type in
+commands which will be execute by the press of the return key.
+
+A commonly used shell is bash_.
+
+.. seealso::
+    * http://www.computerhope.com/jargon/s/shell.htm
+    * https://en.wikipedia.org/wiki/Shell_(computing)#Text_.28CLI.29_shells
+
+.. index::
     Current Working Directory
-    see CWD; Current Working Directory
-    see Current Directory; Current Working Directory
+    see: Working Directory;Current Working Directory
+    see: CWD;Current Working Directory
 
 .. _cwd:
 
