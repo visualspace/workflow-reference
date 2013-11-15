@@ -1,4 +1,4 @@
-.. highlight:: css
+.. highlight:: scss
 
 .. index:: ! CSS
 
@@ -6,6 +6,28 @@
 
 Style sheets
 ============
+
+Style Precedence
+----------------
+CSS Specificity is one of the most difficult concepts to grasp in Cascading Stylesheets. The different weight of selectors is usually the reason why your CSS-rules don’t apply to some elements, although you think they should have.
+
+Every selector has its place in the specificity hierarchy. There are four distinct categories which define the specificity level of a given selector:
+
+1. Inline styles (Presence of style in document).
+   An inline style lives within your XHTML document. It is attached directly to the element to be styled. E.g. ``<h1 style="color: #fff;">``
+
+2. IDs (# of ID selectors)
+   ID is an identifier for your page elements, such as ``#div``.
+
+3. Classes, attributes and pseudo-classes (# of class selectors).
+   This group includes ``.classes``, ``[attributes]`` and pseudo-classes such as ``:hover``, ``:focus`` etc.
+
+4. Elements and pseudo-elements (# of Element (type) selectors).
+   Including for instance ``:before`` and ``:after``.
+
+.. seealso::
+    * `CSS Specificity: Things You Should Know <http://coding.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/>`_
+    * `Understanding Style Precedence in CSS: Specificity, Inheritance, and the Cascade <http://www.vanseodesign.com/css/css-specificity-inheritance-cascaade/>`_
 
 .. _reset:
 
@@ -49,6 +71,26 @@ particularly with the help of Compass_.
 
 .. seealso:: `Sass reference <http://sass-lang.com/documentation/file.SASS_REFERENCE.html>`_
 
+Media queries
+^^^^^^^^^^^^^
+As of 3.2 (the current release), Sass has smart support for `CSS3 media queries`_. This allows for patterns like::
+
+    $information-phone: "only screen and (max-width : 320px)";
+
+    @media #{$information-phone} {
+      background: red;
+    }
+
+This compiles to::
+
+    @media screen and (max-device-width: 320px) {
+      background: red;
+    }
+
+.. _CSS3 media queries: http://webdesignerwall.com/tutorials/css3-media-queries
+
+.. seealso:: http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32
+
 
 .. _compass:
 
@@ -62,7 +104,8 @@ Compass is a CSS authoring framework based on Sass_ providing:
 * An optional :ref:`reset` component.
 * Page layout modules for: grid backgrounds, sticky footers, stretching.
 
-.. seealso:: `Compass Reference <http://compass-style.org/reference/compass/>`_
+.. seealso::
+    * `Compass Reference <http://compass-style.org/reference/compass/>`_
 
 
 .. _grids:
