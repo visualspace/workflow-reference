@@ -7,21 +7,66 @@
 HTML
 ====
 
+HTML5
+-----
+
+.. seealso::
+    * `HTML5 Rocks <http://www.html5rocks.com/>`_
+    * `HTML5 Doctor <http://html5doctor.com/>`_.
+
+
 .. index:: DOCTYPE
 
 Doctype
--------
-When creating pages, make sure to use a Doctype declaration. For HTML5 (recommended), this means *all* HTML files should start with::
+^^^^^^^
+When creating pages, make sure to use a Doctype declaration. For HTML5 this
+means *all* HTML files should start with::
 
     <!DOCTYPE html>
 
 .. warning::
     Before the doctype declaration, no spaces, characters or other content is allowed.
 
-.. seealso:: `Doctype <http://html5doctor.com/element-index/#doctype>`_ at [html5doctor]_.
+.. seealso:: `Doctype <http://html5doctor.com/element-index/#doctype>`_ at `HTML5 Doctor`_.
 
-References
-----------
-Useful HTML5 resources:
+App Cache
+^^^^^^^^^
+This explicitly allows browsers to download web application for offline
+availability. This uses a so-called cache manifest which looks like this::
 
-.. [html5doctor] `HTML5 Doctor <http://html5doctor.com/>`_
+    # <VERSION IDENIFIER>
+    CACHE MANIFEST
+    FALLBACK:
+    # This will cause any uncached URL to be substituted with offline.html
+    / /offline.html
+    NETWORK:
+    # These resources will only be available online.
+    /checking.cgi
+    CACHE:
+    # These resources will be downloaded in the background and cached
+    /offline.html
+    /test.css
+    /test.js
+    /test.png
+
+.. note::
+    The cached files are only updated when the contents of the
+    manifest file have changed. Hence, it is essential that a some kind of
+    version identifier or last modified date be added in a comment in the
+    file.
+
+.. note::
+    Using a cache manifest causes the cached files to be loaded instead of the
+    online version of files, while uploads are downloaded in the background.
+    Updated files will only be available after a reload of the page, which
+    can be automated using JavaScript (see
+    `A Beginner's Guide to Using the Application Cache`_).
+
+.. note::
+    For HTML5 offline app cache to function it is absolutely essential that
+    the MIME type be set to `text/cache-manifest`.
+
+.. seealso::
+    * `Cache manifest in HTML5 on Wikipedia <https://en.wikipedia.org/wiki/Cache_manifest_in_HTML5>`_
+    * `A Beginner's Guide to Using the Application Cache <http://www.html5rocks.com/en/tutorials/appcache/beginner/>`_ on `HTML5 Rocks`_
+
