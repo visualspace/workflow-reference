@@ -14,6 +14,7 @@ Every project needs some organization. Throwing every new style you create onto 
 
 .. seealso::
     * `Scalable and Modular Architecture for CSS <http://smacss.com/book/>`_ (SMACSS)
+    * `The Sass Way <http://thesassway.com/>`_
 
 Style Precedence
 ----------------
