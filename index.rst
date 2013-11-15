@@ -15,6 +15,7 @@ Contents:
    js/index
    tools/index
    unix/index
+   patterns/index
 
 
 
