@@ -187,6 +187,7 @@ Node.js is a platform for easily building fast, scalable network applications
 using JavaScript.
 
 .. seealso::
+    * `The Node Beginner Book <http://www.nodebeginner.org/>`_
     * `A guided introduction to Node.js <https://www.youtube.com/watch?v=jo_B4LTHi3I>`_ (video)
     * `Node.js API docs <http://nodejs.org/api/>`_
 
