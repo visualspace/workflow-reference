@@ -7,6 +7,14 @@
 Style sheets
 ============
 
+Modular architecture
+--------------------
+
+Every project needs some organization. Throwing every new style you create onto the end of a single file would make finding things more difficult and would be very confusing for anybody else working on the project.
+
+.. seealso::
+    * `Scalable and Modular Architecture for CSS <http://smacss.com/book/>`_ (SMACSS)
+
 Style Precedence
 ----------------
 CSS Specificity is one of the most difficult concepts to grasp in Cascading Stylesheets. The different weight of selectors is usually the reason why your CSS-rules don’t apply to some elements, although you think they should have.
