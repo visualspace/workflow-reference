@@ -7,7 +7,6 @@
 Style sheets
 ============
 
-
 .. _reset:
 
 Browser reset
@@ -66,10 +65,19 @@ Compass is a CSS authoring framework based on Sass_ providing:
 .. seealso:: `Compass Reference <http://compass-style.org/reference/compass/>`_
 
 
+.. _grids:
+
+Grid systems
+------------
+Several grid systems exist to make the life of web designers easier.
+One of these is contained in :ref:`bootstrap`, another is provided by
+Susy_.
+
+
 .. _susy:
 
 Susy
-----
+^^^^
 Susy is a responsive grid system for Compass_.
 
 .. seealso::
