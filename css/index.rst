@@ -41,7 +41,7 @@ Sass is an extension of CSS that adds power and elegance to the basic language.
 It allows you to use variables_, `nested rules`_, mixins_, `inline imports`_, and more,
 all with a fully CSS-compatible syntax. Sass helps keep large stylesheets
 well-organized, and get small stylesheets up and running quickly,
-particularly with the help of :ref:`compass`.
+particularly with the help of Compass_.
 
 .. _variables: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_
 .. _nested rules: http://sass-lang.com/documentation/file.SASS_REFERENCE.html#nested_rules
@@ -55,7 +55,7 @@ particularly with the help of :ref:`compass`.
 
 Compass
 -------
-Compass is a CSS authoring framework based on :ref:`sass` providing:
+Compass is a CSS authoring framework based on Sass_ providing:
 
 * Cross browser CSS3 mixins that take advantage of available pre-spec vendor prefixes
 * Mixins for common typography patterns.
@@ -70,7 +70,7 @@ Compass is a CSS authoring framework based on :ref:`sass` providing:
 
 Susy
 ----
-Susy is a responsive grid system for :ref:`compass`.
+Susy is a responsive grid system for Compass_.
 
 .. seealso::
     * `Using Susy with Yeoman <http://susy.oddbird.net/guides/getting-started/#start-yeoman>`_
