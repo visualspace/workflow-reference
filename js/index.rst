@@ -219,3 +219,11 @@ commands are available regardless of the :ref:`cwd`.
 .. _VirtualEnv: https://pypi.python.org/pypi/virtualenv
 .. _DailyJS: http://dailyjs.com
 .. _Nodepad: http://dailyjs.com/2010/11/01/node-tutorial/
+
+Web application frameworks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+There exist several frameworks to aid in the development of Node web
+applications. Some of these are:
+
+* `express <http://expressjs.com/>`_
+* `partial.js <http://www.partialjs.com/>`_
