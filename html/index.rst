@@ -11,9 +11,15 @@ HTML5
 -----
 
 .. seealso::
-    * `HTML5 Rocks <http://www.html5rocks.com/>`_
-    * `HTML5 Doctor <http://html5doctor.com/>`_
-    * `W3Schools <http://www.w3schools.com/>`_
+
+    HTML5 Rocks
+        http://www.html5rocks.com/
+
+    HTML5 Doctor
+        http://html5doctor.com/
+
+    W3Schools
+        http://www.w3schools.com/
 
 
 .. index:: DOCTYPE
