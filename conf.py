@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'workflow-reference'
+project = u'Workflow reference'
 copyright = u'2013, Visualspace'
 
 # The version info for the project you're documenting, acts as replacement for
