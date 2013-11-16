@@ -34,7 +34,11 @@ means *all* HTML files should start with::
 .. warning::
     Before the doctype declaration, no spaces, characters or other content is allowed.
 
-.. seealso:: `Doctype <http://html5doctor.com/element-index/#doctype>`_ at `HTML5 Doctor`_.
+.. seealso::
+
+    Doctype at HTML5 Doctor
+        http://html5doctor.com/element-index/#doctype
+
 
 App Cache
 ^^^^^^^^^
@@ -66,20 +70,27 @@ availability. This uses a so-called cache manifest which looks like this::
     Using a cache manifest causes the cached files to be loaded instead of the
     online version of files, while uploads are downloaded in the background.
     Updated files will only be available after a reload of the page, which
-    can be automated using JavaScript (see
-    `A Beginner's Guide to Using the Application Cache`_).
+    can be automated using JavaScript.
 
 .. note::
     For HTML5 offline app cache to function it is absolutely essential that
     the MIME type be set to `text/cache-manifest`.
 
 .. seealso::
-    * `Cache manifest in HTML5 on Wikipedia <https://en.wikipedia.org/wiki/Cache_manifest_in_HTML5>`_
-    * `A Beginner's Guide to Using the Application Cache <http://www.html5rocks.com/en/tutorials/appcache/beginner/>`_ on `HTML5 Rocks`_
+
+    Cache manifest in HTML5
+        https://en.wikipedia.org/wiki/Cache_manifest_in_HTML5
+
+    A Beginner's Guide to Using the Application Cache
+        http://www.html5rocks.com/en/tutorials/appcache/beginner/
 
 Video
 ^^^^^
 
 .. seealso::
-    * `HTML5 Video <http://www.w3schools.com/html/html5_video.asp>`_ at W3Schools_
-    * `Video.js <http://www.videojs.com/>`_
+
+    HTML5 Video at W3Schools
+        http://www.w3schools.com/html/html5_video.asp
+
+    Video.js
+        http://www.videojs.com/

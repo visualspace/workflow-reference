@@ -12,14 +12,19 @@ Tools used for :ref:`html`, :ref:`css` and :ref:`js` in web development.
 Yeoman
 ------
 Yeoman bundles Grunt_ and Bower_ with the scaffolding tool
-Yo_ used to setup a new web application
+Yo used to setup a new web application
 as follows::
 
     yo webapp
 
 .. seealso::
-    * `Yeoman website <http://yeoman.io/>`_
-    * `Yo <https://github.com/yeoman/yo>`_
+
+    Yeoman
+        http://yeoman.io/
+
+    Yo
+        https://github.com/yeoman/yo
+
 
 .. _grunt:
 
@@ -31,7 +36,11 @@ and/or reload files in the browser by running::
 
     grunt watch
 
-.. seealso:: http://gruntjs.com/
+.. seealso::
+
+    Grunt
+        http://gruntjs.com/
+
 
 Bower
 -----
@@ -43,7 +52,10 @@ as :ref:`bootstrap`. For example, installing :ref:`backbone` is easy::
 
 This will also include Backbone dependencies such as :ref:`underscore`.
 
-.. seealso:: http://bower.io/
+.. seealso::
+
+    Bower
+        http://bower.io/
 
 
 .. _bootstrap:
@@ -60,7 +72,7 @@ Bootstrap is a comprehensive front-end framework consisting of:
 * `jQuery plugins`_ for common interaction patterns.
 
 The original version of bootstrap is built using `Less CSS <http://lesscss.org/>`_
-but a port using :ref:`Compass` is available as `Sass Bootstrap`_.
+but a port using :ref:`Compass` is available as Sass Bootstrap.
 
 .. _templates: http://getbootstrap.com/getting-started/#template
 .. _examples: http://getbootstrap.com/getting-started/#examples
@@ -69,8 +81,13 @@ but a port using :ref:`Compass` is available as `Sass Bootstrap`_.
 .. _jQuery plugins: http://getbootstrap.com/javascript/
 
 .. seealso::
-    * `Bootstrap's website <http://getbootstrap.com/>`_
-    * `Sass Bootstrap <http://alademann.github.io/sass-bootstrap/>`_
+
+    Bootstrap
+        http://getbootstrap.com/
+
+    Sass Bootstrap
+        http://alademann.github.io/sass-bootstrap/
+
 
 Cross-browser testing
 ---------------------
@@ -81,5 +98,9 @@ have live access to apps on different browsers and devices.
 
 
 .. seealso::
-    * `BrowserStack <http://www.browserstack.com/>`_
-    * `SauceLabs <https://saucelabs.com/>`_
+
+    BrowserStack
+        http://www.browserstack.com/
+
+    SauceLabs
+        https://saucelabs.com/

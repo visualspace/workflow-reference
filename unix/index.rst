@@ -33,8 +33,13 @@ commands which will be execute by the press of the return key.
 A commonly used shell is bash_.
 
 .. seealso::
-    * http://www.computerhope.com/jargon/s/shell.htm
-    * https://en.wikipedia.org/wiki/Shell_(computing)#Text_.28CLI.29_shells
+
+    Shell on Computer Hoper
+        http://www.computerhope.com/jargon/s/shell.htm
+
+    Shell
+        https://en.wikipedia.org/wiki/Shell_(computing)#Text_.28CLI.29_shells
+
 
 .. index::
     Current Working Directory
@@ -66,9 +71,16 @@ The value of the working directory can be found at any time using the
     /Users/drbob/Development/workflow-reference/unix
 
 .. seealso::
-    * `Current Directory on Computer Hope <http://www.computerhope.com/jargon/c/currentd.htm>`_
-    * `Current Working Directory Definition <http://www.linfo.org/current_directory.html>`_
-    * `Working directory on Wikipedia <https://en.wikipedia.org/wiki/Working_directory>`_
+
+    Current Directory on Computer Hope
+        http://www.computerhope.com/jargon/c/currentd.htm
+
+    Current Working Directory Definition
+        http://www.linfo.org/current_directory.html
+
+    Working directory on Wikipedia
+        https://en.wikipedia.org/wiki/Working_directory
+
 
 .. _`home directory`:
 
@@ -88,19 +100,31 @@ full `path name`_ to the home directory can be found through pwd_::
     drbob@swordfish ~ $ pwd
     /Users/drbob
 
-.. seealso:: http://www.computerhope.com/jargon/h/homedir.htm
+.. seealso::
+
+    Home Directory on Computer Hope
+        http://www.computerhope.com/jargon/h/homedir.htm
+
 
 .. _`command prompt`:
 
 Command Prompt
 ^^^^^^^^^^^^^^
 
-.. seealso:: http://www.computerhope.com/jargon/c/commprom.htm
+.. seealso::
+
+    Command Prompt on Computer Hope
+        http://www.computerhope.com/jargon/c/commprom.htm
+
 
 Path Name
 ^^^^^^^^^
 
-.. seealso:: http://www.computerhope.com/jargon/p/path.htm
+.. seealso::
+
+    Path Name on Computer Hope
+        http://www.computerhope.com/jargon/p/path.htm
+
 
 Commands
 --------

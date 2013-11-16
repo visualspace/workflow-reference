@@ -57,7 +57,11 @@ so ``dependency1`` will be loaded from ``dependency1.js``.
 
         });
 
-.. seealso:: `Asynchronous module definition on Wikipedia <https://en.wikipedia.org/wiki/Asynchronous_module_definition>`_
+.. seealso::
+
+    Asynchronous module definition
+        https://en.wikipedia.org/wiki/Asynchronous_module_definition
+
 
 Require.js
 ^^^^^^^^^^
@@ -66,9 +70,16 @@ use but can also be used with :ref:`Node` to build and optimize JS before
 distributing.
 
 .. seealso::
-    * `RequireJS API <http://requirejs.org/docs/api.html>`_
-    * `Using RequireJS with jQuery <http://requirejs.org/docs/jquery.html>`_
-    * `RequireJS Optimizer <http://requirejs.org/docs/optimization.html>`_
+
+    RequireJS API
+        http://requirejs.org/docs/api.html
+
+    Using RequireJS with jQuery
+        http://requirejs.org/docs/jquery.html
+
+    RequireJS Optimizer
+        http://requirejs.org/docs/optimization.html
+
 
 .. _template-libraries:
 
@@ -79,12 +90,17 @@ the one included in Underscore_.
 
 Handlebars
 ^^^^^^^^^^
-Handlebars is an extendable but compatible variant of the Moustache_ minimal
+Handlebars is an extendable but compatible variant of the Moustache minimal
 logic-less template library.
 
 .. seealso::
-    * `Handlebars <http://handlebarsjs.com/>`_
-    * `Moustache <http://mustache.github.io/>`_
+
+    Handlebars
+        http://handlebarsjs.com/
+
+    Moustache
+        http://mustache.github.io/
+
 
 .. _mvc-libraries:
 
@@ -105,7 +121,10 @@ Backbone requires Underscore_ and is commonly used with a
 :ref:`DOM library <dom-libraries>`.
 
 .. seealso::
-    * `Backbone.js <http://backbonejs.org/>`_
+
+    Backbone.js
+        http://backbonejs.org/
+
 
 .. _underscore:
 
@@ -124,12 +143,19 @@ some and indexOf.
 .. note::
     Several performance-optimized compatible drop-in replacements for
     Underscore_ exist which are *much* faster and are recommended over
-    the original Underscore library: `Lazy.js`_, `Lo-Dash`_.
+    the original Underscore library: Lazy.js, Lo-Dash.
 
 .. seealso::
-    * `Underscore.js <http://underscorejs.org/>`_
-    * `Lo-Dash <http://lodash.com/>`_
-    * `Lazy.js <http://danieltao.com/lazy.js/>`_
+
+    Underscore.js
+        http://underscorejs.org/
+
+    Lo-Dash
+        http://lodash.com/
+
+    Lazy.js
+        http://danieltao.com/lazy.js/
+
 
 .. index:: DOM
 
@@ -139,15 +165,22 @@ DOM Libraries
 -------------
 The DOM (Document Object Model) is an in-memory representation of the HTML
 structure in a web page, which can be accessed using so-called DOM libraries,
-the best example of which is jQuery_.
+the best example of which is jQuery.
 
 DOM libraries provide uniform access for iterating over, reading, manipulating
 and responding to events on live elements in the browser.
 
 .. seealso::
-    * `jQuery <http://jquery.com/>`_
-    * `DOM Introduction <http://www.quirksmode.org/dom/intro.html>`_
-    * `DOM on Wikipedia <https://en.wikipedia.org/wiki/Document_Object_Model>`_
+
+    jQuery
+        http://jquery.com/
+
+    DOM Introduction
+        http://www.quirksmode.org/dom/intro.html
+
+    DOM on Wikipedia
+        https://en.wikipedia.org/wiki/Document_Object_Model
+
 
 .. _zepto:
 
@@ -158,7 +191,7 @@ and responding to events on live elements in the browser.
 Zepto
 ^^^^^
 Zepto is a minimalist JavaScript library for modern browsers with a largely
-jQuery_-compatible API. Because Zepto lacks support for Internet Explorer, it
+jQuery-compatible API. Because Zepto lacks support for Internet Explorer, it
 is much smaller and faster than jQuery while providing largely
 equivalent functionality.
 
@@ -172,7 +205,9 @@ following snippet for jQuery fallback on IE::
     </script>
 
 .. seealso::
-    * `Zepto.js <http://zeptojs.com/>`_
+
+    Zepto.js
+        http://zeptojs.com/
 
 
 .. index::
@@ -187,9 +222,16 @@ Node.js is a platform for easily building fast, scalable network applications
 using JavaScript.
 
 .. seealso::
-    * `The Node Beginner Book <http://www.nodebeginner.org/>`_
-    * `A guided introduction to Node.js <https://www.youtube.com/watch?v=jo_B4LTHi3I>`_ (video)
-    * `Node.js API docs <http://nodejs.org/api/>`_
+
+    The Node Beginner Book
+        http://www.nodebeginner.org/
+
+    A guided introduction to Node.js
+        https://www.youtube.com/watch?v=jo_B4LTHi3I
+
+    Node.js API docs
+        http://nodejs.org/api/
+
 
 NPM
 ^^^
