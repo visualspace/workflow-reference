@@ -42,6 +42,29 @@ and/or reload files in the browser by running::
         http://gruntjs.com/
 
 
+.. _assemble:
+
+Assemble
+--------
+Assemble is a static site generator for use with :ref:`grunt`. Starting an
+assemble project is easy with :ref:`yeoman`::
+
+    npm install -g generator-assemble
+    mkdir project && cd project
+    yo assemble
+
+.. seealso::
+
+    Using assemble with Yeoman (adding Yeoman to an existing project)
+        http://www.fettblog.eu/blog/2013/09/02/using-assemble-io-with-yeoman-ios-webapp-gruntfile/
+
+    assemble
+        http://assemble.io/
+
+    Yeoman assemble generator
+        https://github.com/assemble/generator-assemble
+
+
 Bower
 -----
 Bower is used like a package manager for client-side JS, CSS and other
