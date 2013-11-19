@@ -209,4 +209,26 @@ Susy is a responsive grid system for Compass_.
 
 CSS Workflow
 ------------
+
 See: https://vimeo.com/15982903
+
+
+.. _device-independent-pixels:
+
+Device Independent Pixels
+-------------------------
+
+.. todo::
+    There are several references here, with varied quality and usability. Please remove what's not usable and summarise the
+    useful bits.
+
+.. seealso::
+
+    A Pixel is not a Pixel by Peter-Paul Koch
+        http://fronteers.nl/congres/2012/sessions/a-pixel-is-not-a-pixel-peter-paul-koch
+
+    Optimising for High Pixel Density Displays
+        http://menacingcloud.com/?c=highPixelDensityDisplays
+
+    A Pixel Identity Crisis
+        http://alistapart.com/article/a-pixel-identity-crisis/
