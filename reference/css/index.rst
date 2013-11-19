@@ -298,6 +298,9 @@ Device Independent Pixels
     A Pixel is not a Pixel by Peter-Paul Koch
         http://fronteers.nl/congres/2012/sessions/a-pixel-is-not-a-pixel-peter-paul-koch
 
+    Towards A Retina Web
+        http://coding.smashingmagazine.com/2012/08/20/towards-retina-web/
+
     A Pixel Identity Crisis
         http://alistapart.com/article/a-pixel-identity-crisis/
 
