@@ -247,12 +247,13 @@ See: https://vimeo.com/15982903
 
 Viewport
 --------
-In modern CSS, two types of viewports exist:
+For modern web development, we have to account for several types of viewports:
 
 1. The visual viewport; the part of the page that's currently on-screen.
 2. The layout viewport; the viewport referenced to in CSS.
+3. The ideal viewport, where the layout viewport is equal to the visual viewport.
 
-For responsive designs, use the viewport meta tag in the HTML header to disable zoom and set the width of the layout viewport equal to that of the device::
+In responsive designs we generally want an ideal viewport and adjust the elements to the available pixels instead of zooming the whole site. For this we use the viewport meta tag in the HTML header to disable zoom and set the width of the layout viewport equal to that of the device::
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -276,6 +277,9 @@ For full-screen applications which are not meant to scroll, also set the height 
 
     Mobiles and Tablets – Viewport Sizes
         http://i-skool.co.uk/mobile-development/web-design-for-mobiles-and-tablets-viewport-sizes/
+
+    Browser compatibility — viewports
+        http://www.quirksmode.org/mobile/tableViewport.html
 
     :ref:`device-independent-pixels`
 
