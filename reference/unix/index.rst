@@ -4,7 +4,7 @@
 
 .. _unix:
 
-Unix reference
+Unix
 ==============
 Elementary survival guide for the UNIX terminal. This guide assumes the bash_ shell is used.
 

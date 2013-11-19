@@ -14,12 +14,7 @@ Contents:
    :maxdepth: 2
 
    workflows/index
-   html/index
-   css/index
-   js/index
-   tools/index
-   unix/index
-   patterns/index
+   reference/index
 
 
 To do
