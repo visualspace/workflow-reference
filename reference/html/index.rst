@@ -22,6 +22,14 @@ HTML5
         http://www.w3schools.com/
 
 
+.. _favicon:
+
+Favicon
+^^^^^^^
+
+.. todo:: Document favicon best practises.
+
+
 .. index:: DOCTYPE
 
 Doctype
