@@ -13,6 +13,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   workflows/index
    html/index
    css/index
    js/index
