@@ -291,11 +291,37 @@ Device Independent Pixels
 
 .. seealso::
 
-    More about devicePixelRatio
-        http://www.quirksmode.org/blog/archives/2012/07/more_about_devi.html
-
     A Pixel is not a Pixel by Peter-Paul Koch
         http://fronteers.nl/congres/2012/sessions/a-pixel-is-not-a-pixel-peter-paul-koch
 
     A Pixel Identity Crisis
         http://alistapart.com/article/a-pixel-identity-crisis/
+
+    :ref:`device-pixel-ratio`
+
+    :ref:`viewport`
+
+
+.. _device-pixel-ratio:
+
+Device pixel ratio
+------------------
+
+``devicePixelRatio`` is the ratio between physical pixels and device-independent pixels (dips) on the device:
+
+.. code-block:: js
+
+    window.devicePixelRatio = physical pixels / dips
+
+.. seealso::
+
+    devicePixelRatio
+        http://www.quirksmode.org/blog/archives/2012/06/devicepixelrati.html
+
+    More about devicePixelRatio
+        http://www.quirksmode.org/blog/archives/2012/07/more_about_devi.html
+
+    :ref:`device-independent-pixels`
+
+    :ref:`viewport`
+
