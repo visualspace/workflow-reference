@@ -243,6 +243,43 @@ CSS Workflow
 See: https://vimeo.com/15982903
 
 
+.. _viewport:
+
+Viewport
+--------
+In modern CSS, two types of viewports exist:
+
+1. The visual viewport; the part of the page that's currently on-screen.
+2. The layout viewport; the viewport referenced to in CSS.
+
+For responsive designs, use the viewport meta tag in the HTML header to disable zoom and set the width of the layout viewport equal to that of the device::
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+For full-screen applications which are not meant to scroll, also set the height of the viewport to the device height::
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+.. note::
+    The device pixels (``device-width`` and ``device-height``) are not necessarily equal to actual screen pixels due to the device pixel ratio. See :ref:`device-independent-pixels`.
+
+.. seealso::
+
+    CSS Device Adaptation With @viewport
+        http://blog.teamtreehouse.com/thinking-ahead-css-device-adaptation-with-viewport
+
+    Stop using the viewport meta tag (until you know how to use it)
+        http://blog.javierusobiaga.com/stop-using-the-viewport-tag-until-you-know-ho
+
+    Mozilla: Using the viewport meta tag to control layout on mobile browsers
+        https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+
+    Mobiles and Tablets – Viewport Sizes
+        http://i-skool.co.uk/mobile-development/web-design-for-mobiles-and-tablets-viewport-sizes/
+
+    :ref:`device-independent-pixels`
+
+
 .. _device-independent-pixels:
 
 Device Independent Pixels
@@ -254,11 +291,11 @@ Device Independent Pixels
 
 .. seealso::
 
+    More about devicePixelRatio
+        http://www.quirksmode.org/blog/archives/2012/07/more_about_devi.html
+
     A Pixel is not a Pixel by Peter-Paul Koch
         http://fronteers.nl/congres/2012/sessions/a-pixel-is-not-a-pixel-peter-paul-koch
-
-    Optimising for High Pixel Density Displays
-        http://menacingcloud.com/?c=highPixelDensityDisplays
 
     A Pixel Identity Crisis
         http://alistapart.com/article/a-pixel-identity-crisis/
