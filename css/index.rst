@@ -18,8 +18,10 @@ project.
 
 .. seealso::
 
-    * `Scalable and Modular Architecture for CSS <http://smacss.com/book/>`_ (SMACSS)
-    * `The Sass Way <http://thesassway.com/>`_
+    Scalable and Modular Architecture for CSS (SMACSS)
+        http://smacss.com/book/
+    The Sass Way
+        http://thesassway.com/
 
 File structure
 ^^^^^^^^^^^^^^
@@ -73,11 +75,16 @@ While being a work in progress, the import order in a hypothetical
     brave.
 
 .. seealso::
-    * `How to structure a Sass project <http://thesassway.com/beginner/how-to-structure-a-sass-project>`_
+
+    How to structure a Sass project
+        http://thesassway.com/beginner/how-to-structure-a-sass-project
 
 Naming conventions
 ^^^^^^^^^^^^^^^^^^
-.. seealso:: `Modular CSS naming conventions <http://thesassway.com/advanced/modular-css-naming-conventions>`_
+.. seealso::
+
+    Modular CSS naming conventions
+        http://thesassway.com/advanced/modular-css-naming-conventions
 
 .. _style-precedence:
 
@@ -105,20 +112,37 @@ distinct categories which define the specificity level of a given selector:
    Including for instance ``:before`` and ``:after``.
 
 .. seealso::
-    * `CSS Specificity: Things You Should Know <http://coding.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/>`_
-    * `Understanding Style Precedence in CSS: Specificity, Inheritance, and the Cascade <http://www.vanseodesign.com/css/css-specificity-inheritance-cascaade/>`_
+
+    CSS Specificity: Things You Should Know
+        http://coding.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
+
+    Understanding Style Precedence in CSS: Specificity, Inheritance, and the Cascade
+        http://www.vanseodesign.com/css/css-specificity-inheritance-cascaade/
 
 .. _reset:
 
 Browser reset
 -------------
-A CSS Reset (or “Reset CSS”) is a set of CSS rules that resets the styling of
-all HTML elements to a consistent baseline across browsers.
+A CSS Reset (or “Reset CSS”) is a set of CSS rules that resets the
+styling of all HTML elements to a consistent baseline across browsers.
+
+.. todo::
+    Include one of the following alternatives as bad practise and the
+    others as explicitly deprecated.
+
+    * :ref:`normalise.css`?
+    * :ref:`Compass`' CSS reset
+    * Eric Meyer's original
 
 .. seealso::
-    * `What Is A CSS Reset? <http://www.cssreset.com/what-is-a-css-reset/>`_
-    * `Eric Meyer's original Reset CSS <http://meyerweb.com/eric/tools/css/reset/>`_
-    * :ref:`normalise.css`
+
+    What Is A CSS Reset?
+        http://www.cssreset.com/what-is-a-css-reset/
+
+    Eric Meyer's original Reset CSS
+        http://meyerweb.com/eric/tools/css/reset/
+
+    :ref:`normalise.css`
 
 
 .. _normalise.css:
@@ -184,7 +208,9 @@ Compass is a CSS authoring framework based on Sass_ providing:
 * Page layout modules for: grid backgrounds, sticky footers, stretching.
 
 .. seealso::
-    * `Compass Reference <http://compass-style.org/reference/compass/>`_
+
+    Compass Reference
+        http://compass-style.org/reference/compass/
 
 
 .. _grids:
@@ -203,8 +229,12 @@ Susy
 Susy is a responsive grid system for Compass_.
 
 .. seealso::
-    * `Using Susy with Yeoman <http://susy.oddbird.net/guides/getting-started/#start-yeoman>`_
-    * `Susy documentation <http://susy.oddbird.net/>`_
+
+    Using Susy with Yeoman
+        http://susy.oddbird.net/guides/getting-started/#start-yeoman
+
+    Susy documentation
+        http://susy.oddbird.net/
 
 
 CSS Workflow
