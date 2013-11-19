@@ -5,6 +5,9 @@
 
 .. include:: README.rst
 
+.. note::
+   This documentation is currently in a very early stage of development and should not be considered ready for production use.
+
 Contents:
 
 .. toctree::
@@ -17,6 +20,11 @@ Contents:
    unix/index
    patterns/index
 
+
+To do
+===========
+
+.. todolist::
 
 
 Indices and tables
