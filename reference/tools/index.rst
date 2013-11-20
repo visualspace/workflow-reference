@@ -127,3 +127,28 @@ have live access to apps on different browsers and devices.
 
     SauceLabs
         https://saucelabs.com/
+
+
+.. _polyfills:
+
+Polyfills
+---------
+Tools allowing new HTML and CSS features to be used in browser that do not (yet) support them.
+
+.. _picturefill:
+
+Picturefill
+^^^^^^^^^^^
+An adaptive ('retina') images approach that you can use today that mimics the proposed :ref:`picture`.
+
+.. seealso:: https://github.com/scottjehl/picturefill
+
+
+.. _srcset-polyfill:
+
+srcset-polyfill
+^^^^^^^^^^^^^^^
+
+.. seealso:: https://github.com/borismus/srcset-polyfill
+
+
