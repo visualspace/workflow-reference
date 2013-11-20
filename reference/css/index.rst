@@ -217,10 +217,7 @@ Compass is a CSS authoring framework based on Sass_ providing:
 
 Grid systems
 ------------
-Several grid systems exist to make the life of web designers easier.
-One of these is contained in :ref:`bootstrap`, another is provided by
-Susy_.
-
+Several grid systems exist to make the life of web designers easier. We currently recommend the usage of the :ref:`susy` responsive grid system, unless :ref:`bootstrap` is used, which works better with the already included grid system.
 
 .. _susy:
 
