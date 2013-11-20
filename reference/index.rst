@@ -14,3 +14,4 @@ Contents:
    tools/index
    unix/index
    patterns/index
+   design/index
